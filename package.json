@@ -1,0 +1,12 @@
+{
+  "name": "gacha-ui",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/ForumLinuxIndonesia/ui-components",
+  "author": "Lendra <lendradx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
