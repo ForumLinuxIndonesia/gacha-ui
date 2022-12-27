@@ -5,9 +5,6 @@
 	"repository": "https://github.com/ForumLinuxIndonesia/ui-components",
 	"author": "Lendra <lendradx@gmail.com>",
 	"license": "MIT",
-	"scripts": {
-		"preinstall": "sh cleanup.sh"
-	},
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
