@@ -4,17 +4,19 @@ function setColor() {}
 
 function setVariant() {}
 
+function setRounded() {}
+
 /**
  * Properties:
  * @label Button label
  * @color Text color
  * @variant Button Variant
+ * @rounded
+ * @onToggle
  * @className Your custom class
  */
 function Button(data) {
-	let size = setSize(data.size);
-	let color = setColor(data.color);
-	let classList = `${size} ${color}`;
+	let classList = `${setSize(data.size)} ${setColor(data.color)} ${setVariant(data.variant)} ${setRounded(data.rounded)} ${data.className}`;
 	return <button className={classList}>{data.label}</button>;
 }
 
